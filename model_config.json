@@ -1,0 +1,18 @@
+{
+  "optimal_threshold": 0.8667777180671692,
+  "features": [
+    "velocity",
+    "acceleration",
+    "estimated_headway",
+    "gradient",
+    "curvature",
+    "speed_limit",
+    "signal_state",
+    "friction"
+  ],
+  "sequence_length": 10,
+  "hidden_size": 64,
+  "test_precision": 0.4147,
+  "test_recall": 0.7854,
+  "test_f1": 0.5428
+}
